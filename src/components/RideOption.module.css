@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.rideOption {
+    display: grid;
+    grid-template-columns: 0.8fr 2fr 1.5fr 1.2fr;
+    gap: 10px;
+    place-items: center;
+    
+    max-width: 600px;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    border: 1px solid white;
+
+    transition: all 0.3s;
+}
+
+.rideOption:hover {
+    background-color: #e0e0e0; /* Change background on hover */
+    border-color: #ccc; /* Change border color on hover */
+    color: #0b007f;
+    border-radius: 20px;
+}
