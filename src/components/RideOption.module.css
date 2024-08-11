@@ -1,10 +1,13 @@
 * {
     box-sizing: border-box;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color-scheme: light dark;
+
 }
 
 .rideOption {
     display: grid;
-    grid-template-columns: 0.8fr 2fr 1.5fr 1.2fr;
+    grid-template-columns: 1.5fr 2fr 1.5fr 1.2fr;
     gap: 10px;
     place-items: center;
     
@@ -14,6 +17,9 @@
 
     border: 1px solid white;
 
+    font-family: inter;
+    color: rgba(255, 255, 255, 0.87);
+
     transition: all 0.3s;
 }
 
@@ -21,5 +27,5 @@
     background-color: #e0e0e0; /* Change background on hover */
     border-color: #ccc; /* Change border color on hover */
     color: #0b007f;
-    border-radius: 20px;
+    border-radius: 25px;
 }
